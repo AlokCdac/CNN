@@ -18,7 +18,9 @@ list_of_files=[
     f"src/{package_name}/pipeline/__init__.py",
     f"src/{package_name}/entity/__init__.py",
     f"src/{package_name}/constants/__init__.py",
-    "configs/config.yaml",
+    "tests/__init__.py",
+    "tests/unit/__init__.py",
+    "tests/integration/__init__.py",
     "dvc.yaml",
     "params.yaml",
     "init_setup.sh",
@@ -28,7 +30,7 @@ list_of_files=[
     "setup.cfg",
     "pyproject.toml",
     "tox.ini",
-    "research/trials.ipynb"
+    "research/trials.ipynb",
 ]
 
 
